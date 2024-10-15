@@ -1,0 +1,313 @@
+body{
+    margin-left:15%;
+    margin-right:15%;
+    overflow-x: hidden;
+}
+
+#container{
+    grid-auto-flow: column; 
+    columns: 1fr;     
+}
+
+
+#header{
+    font-family: Poppins;
+    font-size: 28px;
+    padding: 0px 0px 90px;
+    font-weight: 600;
+    line-height: 42px;
+    text-decoration: underline;
+
+}
+
+#headerCta p{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+}
+
+#headerCta h1{
+    font-family: Poppins;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 82.5px;
+    text-align: left;
+}
+
+#menu ul{
+    list-style-type: none;
+    margin:0px;
+    padding: 0px;
+    list-style: none;
+}
+
+#menu li{
+    display: inline-block;
+    margin-left: 20px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+li a{
+    text-decoration: none;
+    list-style: none;
+    list-style-type: none;
+    color: black;
+}
+#menu{
+    text-align: right;
+    position: relative;
+    top: 38px;
+}
+
+#buttonCta{
+    font-family: Poppins;
+    background-color: #2f7cff;
+    color: white;
+    border-radius: 50px;
+    padding: 10px 25px 10px 25px;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+#headerImg{
+    position: relative;
+    bottom: 300px;
+    left:580px;
+    width: 100%;
+    height: 100%;
+}
+
+.headerlogo{
+    display: inline-block;
+    position: relative;
+    padding: 100px;
+    bottom: 300px;
+    left: 250px;
+}
+
+.headerClientText   {
+    position: relative;
+    bottom: 165px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+h2.red{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    color: #f75c4e;
+}
+
+h1.black{
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    text-align: center;
+    line-height: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+p.gray{
+    font-family: Poppins;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #575455;
+    line-height: 30px;
+}
+
+#services{
+    position: relative;
+    bottom: 300px;
+    margin-top: 100px;
+}
+
+#services p{
+    font-family: Poppins;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #575455;
+    line-height: 30px;
+}
+
+
+.services-icons{
+    display:inline-block;
+    position: relative;
+    bottom: 300px;
+    padding: 55px;
+    justify-content: center;
+    text-align: center;
+}
+
+.services-icons img{
+    display: flex;
+    text-align: top;
+    bottom: 310px;
+}
+
+.icons{
+    justify-content: center;
+    padding-right: 100px;
+    padding-left: 50px;
+}
+
+#icon-1{
+    position: relative;
+    right: 111px;
+}
+
+#icon-2{
+    position: relative;
+    justify-content: center;
+}
+
+
+#icon-3{
+    position: relative;
+    justify-content: center;
+    left: 180px;
+}
+
+.services-icons p{
+    position: relative;
+    line-height: 25px;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 15px;
+    /* font-weight: 400; */
+    }
+
+.services-icons h3{
+    display: flex;
+    position: relative;
+    top: 10px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    left: 20px;
+}
+
+#contact img{
+    width: 50%;
+    position: relative;
+    bottom: 200px;
+    right: 90px;
+    border-radius: 20px;
+}
+
+#contact h2{
+    position: relative;
+    left: 130px;
+    bottom: 550px;
+}
+
+#contact h1{
+    text-align: right;
+    position: relative;
+    bottom: 550px;
+    right: 110px;
+}
+
+#contact p{
+    position: relative;
+    left: 570px;
+    bottom: 525px;
+    font-size: 16px;
+    text-align: justify;
+    color: #575455;
+    line-height:30px;
+}
+
+#contact input{
+    font-family: Poppins;
+    position: relative;
+    width: 406px;
+    height: 48px;
+    left: 570px;
+    bottom: 500px;
+    border-style:none;
+    font-size: 16px;
+}
+
+#contact input::placeholder{
+    position: relative;
+    left: 19px;
+    color: #575455;
+}
+
+button{
+    font-family: Poppins;
+    position: relative;
+    background-color: #2f7cff;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    border: 0;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 15px 70px 15px 70px;
+    font-weight: normal;
+    left: 140px;
+    bottom: 420px;
+}
+
+#portfolio-titulo h2{
+    font-family: Poppins;
+    position: relative;
+    bottom: 250px;
+    right:530px;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+
+#portfolio-titulo h1{
+    font-family: Poppins;
+    position: relative;
+    font-weight: bold;
+    bottom: 270px;
+    right: 95px;
+}
+
+.portfolio-imgs{
+    display: inline-block;
+    padding-left: 20px;
+    position: relative;
+}
+
+.portfolio-imgs img{
+    position: relative;
+    right: 60px;
+    bottom: 200px;
+
+}
+
+#portimg1{
+    right: 90px;
+}
+
+#portimg2{
+    left: 65px;
+}
+
+#portimg3{
+    position: relative;
+    left: 155px;
+}
+
+
+
